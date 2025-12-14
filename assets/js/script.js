@@ -59,8 +59,8 @@ function clearInfo() {
     document.querySelector('.resultado').style.display = 'none';
 }
 
- async function petrolina (){
-    let input = 'petrolina'
+ async function brasilia (){
+    let input = 'Brasília'
     if(input !=='')
     {
         clearInfo();    
@@ -94,4 +94,4 @@ function clearInfo() {
     }
 }
 
-petrolina();
+brasilia();
